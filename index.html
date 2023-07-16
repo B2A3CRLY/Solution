@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Online Boot Store Website Design Solution 3.0</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">-->
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #more {display: none;}
+        #more1 {display: none;}
+        #more0 {display: none;}
+        #more3 {display: none;}
+    </style>
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="index.html" class="logo"> <i class="fas fa-book"></i> Solution 3.0 </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">Accueil</a>
+            <a href="#featured">Nos livres</a>
+            <a href="#arrivals">Arrivage</a>
+            <a href="#reviews">Témoignages</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>Offre du jour</h3>
+            <h1>Arabe | Français</h1>
+            <h1 style="color:rgb(5, 155, 72);">Solution 3.0 est disponible en arabe et français.</h1>
+            <h1 style="color:rgb(221, 8, 8);">Solution 2.0 est disponible en français.</h1>
+            <a href="https://api.whatsapp.com/send?phone=774962913" class="btn">ACHETER</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="product/product1.html" class="swiper-slide"><img src="image/book-29.png" alt=""></a>
+                <a href="product/product2.html" class="swiper-slide"><img src="image/book-23.png" alt=""></a>
+                <a href="product/product1.html" class="swiper-slide"><img src="image/book-28.png" alt=""></a>
+                <a href="product/product3.html" class="swiper-slide"><img src="image/book-24.png" alt=""></a>
+                <a href="product/product1.html" class="swiper-slide"><img src="image/book-25.png" alt=""></a>
+                <a href="product/product3.html" class="swiper-slide"><img src="image/book-27.png" alt=""></a>
+                <a href="product/product2.html" class="swiper-slide"><img src="image/book-21.png" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>free shipping</h3>
+            <p>order over $100</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100 secure payment</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>easy returns</h3>
+            <p>10 days returns</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Livres a la Une</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-29.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>SOLUTION 2.0</h3>
+                    <div class="price">$25.99 <span>$30.99</span></div>
+                    <a href="product/product1.html" class="btn">details</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-23.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>SOLUTION 3.0 | ARABE</h3>
+                    <div class="price">$50.99 <span>$60.99</span></div>
+                    <a href="product/product2.html" class="btn">details</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-28.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>SOLUTION 2.0</h3>
+                    <div class="price">$25.99 <span>$30.99</span></div>
+                    <a href="product/product1.html" class="btn">details</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-24.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>SOLUTION 3.0 | FRANCAIS</h3>
+                    <div class="price">$50.99 <span>$60.99</span></div>
+                    <a href="product/product3.html" class="btn">details</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-25.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>SOLUTION 2.0</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="product/product1.html" class="btn">details</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-27.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>SOLUTION 3.0 | FRANCAIS</h3>
+                    <div class="price">$50.99 <span>$60.99</span></div>
+                    <a href="product/product3.html" class="btn">details</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-21.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>SOLUTION 3.0 | ARABE</h3>
+                    <div class="price">$50.99 <span>$60.99</span></div>
+                    <a href="product/product2.html" class="btn">details</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-11.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>SOLUTION 2.0</h3>
+                    <div class="price">$25.99 <span>$30.99</span></div>
+                    <a href="product/product1.html" class="btn">details</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-21.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>SOLUTION 3.0 | ARABE</h3>
+                    <div class="price">$50.99 <span>$60.99</span></div>
+                    <a href="product/product2.html" class="btn">details</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-23.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>SOLUTION 3.0 | ARABE</h3>
+                    <div class="price">$50.99 <span>$60.99</span></div>
+                    <a href="product/product2.html" class="btn">details</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- newsletter section starts -->
+
+<section class="newsletter">
+
+   <!--<form action="">
+        <h3>subscribe for latest updates</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="submit" value="subscribe" class="btn">
+    </form>-->
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-0724b819-44c4-4d37-ab27-b0aca69a6b59"></div>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- arrivals section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>Nouvel Arrivage</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="product/product1.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-29.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Solution 2.0</h3>
+                    <div class="price">$25.99 <span>$30.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="product/product2.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-23.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Solution 3.0 | Arabe</h3>
+                    <div class="price">$50.99 <span>$60.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="product/product1.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-28.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Solution 2.0</h3>
+                    <div class="price">$25.99 <span>$30.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="product/product3.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-24.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Solution 3.0 | Français</h3>
+                    <div class="price">$50.99 <span>$60.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="product/product1.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-25.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Solution 2.0</h3>
+                    <div class="price">$25.99 <span>$30.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="product/product3.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-27.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Solution 3.0 | Français</h3>
+                    <div class="price">$50.99 <span>$60.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="product/product2.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-21.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Solution 3.0 | Arabe</h3>
+                    <div class="price">$50.99 <span>$60.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="product/product1.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-13.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Solution 2.0</h3>
+                    <div class="price">$25.99 <span>$30.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="product/product3.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-12-1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Solution 3.0 | Français</h3>
+                    <div class="price">$50.99 <span>$60.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="product/product1.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/book-29.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Solution 2.0</h3>
+                    <div class="price">$25.99 <span>$30.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- arrivals section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="content">
+        <h3>Offre du jour</h3>
+        <h1>Arabe | Français</h1>
+        <h3>Solution 3.0 est disponible en arabe et français.</h3>
+        <h3 style="color: blue;">Solution 2.0 est disponible seulement en français.</h3>
+        <a href="https://api.whatsapp.com/send?phone=774962913" class="btn">ACHETER</a>
+    </div>
+
+    <div class="image">
+        <img src="image/book-30.png" alt="">
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>Témoignages des clients</span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pic-7.png" alt="">
+                <h3>Alioune Ciss</h3>
+                <p>
+                "Ce livre Solution a été une bénédiction pour moi. Il a dissipé les nombreux préjugés que j'avais et m'a donné une compréhension profonde et respectueuse de cette religion. Il m'a ouvert les yeux sur les valeurs de paix, d'amour et de compassion véhiculées par l'islam, et m'a permis de construire des ponts avec mes amis musulmans."
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-11.jpg" alt="">
+                <h3>Aicha Kane</h3>
+                <p>
+                "En tant que convertie à l'islam, ce livre a été mon guide spirituel. Il m'a appris les principes fondamentaux de cette foi, m'a guidé dans ma pratique quotidienne et m'a donné un sentiment de communauté et d'appartenance. C'est grâce à lui que j'ai trouvé la paix intérieure et la sérénité dans ma nouvelle vie religieuse."
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-9.jpg" alt="">
+                <h3>Saliou Diop</h3>
+                <p>"Après des années de confusion et de désinformation, ce livre m'a offert une clarté et une compréhension approfondie de l'islam. Il a répondu à toutes mes questions et a démystifié les idées fausses que je pouvais avoir. Je suis maintenant en mesure de dialoguer de manière informée et respectueuse avec mes amis musulmans dans le domaine mystique."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/pic-10.jpg" alt="">
+                <h3>Astou Gueye</h3>
+                <p>"En tant que personne en quête de spiritualité, ce livre m'a apporté une profondeur spirituelle que je cherchais depuis longtemps. Les enseignements de l'islam sur la connexion avec Dieu, la gratitude et la recherche du savoir m'ont profondément touché. Il m'a donné une base solide pour ma propre exploration spirituelle."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-11.jpg" alt="">
+                <h3>Fatou Thiam</h3>
+                <p>"En tant que parent, ce livre sur l'islam m'a aidé à transmettre les valeurs de tolérance, de respect et d'ouverture d'esprit à mes enfants. Il nous a offert des récits inspirants de prophètes et de personnalités islamiques qui ont laissé une empreinte positive dans l'histoire, et a renforcé notre compréhension de la diversité religieuse."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-12.jpg" alt="">
+                <h3>Omar Fall</h3>
+                <p>"Ce livre sur l'islam a été une source d'inspiration et de réconfort dans les moments difficiles de ma vie. Les récits de patience, de résilience et de confiance en Dieu m'ont rappelé l'importance de rester fort face aux épreuves. Il m'a donné une boussole morale et m'a guidé vers la lumière lorsque je me sentais perdu."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- reviews section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>Notre blogs</span> </h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Les Jinns en Islam</h3>
+                    <p>
+                        Selon l'islam, les jinns sont des créatures invisibles dotées de libre arbitre et de capacités<span id="dots">...</span><span id="more"> surnaturelles. Ils sont mentionnés dans le Coran et sont considérés comme une partie du monde invisible créé par Dieu, aux côtés des humains et des anges.
+                        Les jinns sont créés à partir du feu et, tout comme les humains, ils ont la capacité de choisir entre le bien et le mal. Ils possèdent leur propre société, avec des structures sociales et des hiérarchies. Certains jinns sont croyants et pratiquent l'islam, tandis que d'autres peuvent être rebelles et malveillants.
+                        Selon les croyances islamiques, les jinns ont une influence sur les affaires humaines, mais ils ne peuvent pas contrôler complètement le destin des individus. Ils peuvent interagir avec les humains de différentes manières, notamment en les influençant, en leur apparaissant sous différentes formes ou en possédant leur corps. Cependant, il est important de noter que les musulmans sont encouragés à se protéger des influences négatives des jinns en se tournant vers Dieu et en récitant des prières spécifiques.
+                        Dans l'islam, il est considéré comme important de ne pas vénérer ou adorer les jinns, car ils sont eux-mêmes créatures soumises à Dieu. Il est également recommandé d'éviter de se livrer à des pratiques occultes ou à la magie, car cela peut ouvrir la voie à des interactions négatives avec les jinns.
+                        En résumé, les jinns sont des créatures invisibles de l'islam qui coexistent avec les humains. Ils sont dotés de libre arbitre, peuvent être bons ou mauvais, et peuvent avoir une influence sur les affaires humaines. Cependant, les musulmans sont encouragés à se protéger des influences négatives des jinns en se tournant vers Dieu et en suivant les enseignements de l'islam.
+                    </span>
+                    </p>
+                    <button onclick="myFunction()" id="myBtn" class="btn">read more</button>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Salatou Istikhara</h3>
+                    <p>
+                        La prière de consultation, connue en arabe sous le nom de "Salat al-Istikhara"<span id="dots1">...</span><span id="more1">, est une prière spécifique dans l'islam qui est recommandée lorsqu'une personne est confrontée à une décision importante dans sa vie et qu'elle souhaite obtenir la guidance divine. Elle est considérée comme une façon de demander l'aide d'Allah pour choisir la meilleure voie à suivre.
+                        Voici comment la prière de consultation est généralement pratiquée :
+                        Purification : Tout d'abord, assurez-vous d'être en état de pureté rituelle en effectuant les ablutions (wudhu).
+                        Intention : Formulez l'intention dans votre cœur de faire la prière de consultation pour obtenir la guidance divine dans une décision particulière.
+                        Prière : Priez deux unités de prière, de préférence à un moment où les prières volontaires sont autorisées (hors des heures interdites).
+                        Invocation : Après avoir terminé la prière, récitez l'invocation spécifique pour la prière de consultation. Voici une traduction approximative de l'invocation :
+                        "Ô Allah, je Te demande de me montrer ce qui est bon pour moi, de me donner la capacité de le choisir, et de me faire satisfait de ce que Tu as ordonné pour moi. Montre-moi la vérité comme étant la vérité et accorde-moi la capacité de la suivre, et montre-moi le faux comme étant le faux et accorde-moi la capacité de l'éviter. Ô Allah, guide-moi et facilite-moi la décision qui sera meilleure pour moi."
+                        Confiance en Allah : Après avoir fait la prière de consultation, placez votre confiance en Allah et en Sa sagesse. Soyez attentif aux signes, aux sentiments intérieurs et aux circonstances qui pourraient vous guider dans votre prise de décision.
+                        Il est important de noter que la prière de consultation ne garantit pas une réponse immédiate ou une vision claire. Cependant, en demandant la guidance divine et en plaçant sa confiance en Allah, un croyant peut avoir la certitude qu'il sera guidé vers la meilleure voie.
+                        Il est recommandé d'accompagner la prière de consultation d'efforts personnels, de réflexion et de consultation avec des personnes de confiance. L'objectif est d'obtenir une vision globale et éclairée avant de prendre une décision importante dans la vie.
+                    </span>
+                    </p>
+                    <button onclick="myFunction1()" id="myBtn1" class="btn">read more</button>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Le mariage en Islam</h3>
+                    <p>
+                        Le mariage occupe une place centrale dans l'islam en tant qu'institution sacrée et bénie.<span id="dots0">...</span><span id="more0"> Voici quelques éléments clés concernant le mariage en islam :
+                            Importance du mariage : Le mariage est encouragé en islam et est considéré comme une voie pour l'épanouissement personnel, la tranquillité et la formation d'une famille solide. Il est considéré comme une sunna (tradition prophétique) et est recommandé pour les croyants.
+                            Engagement mutuel : Le mariage en islam est un contrat légal et moral entre un homme et une femme. Les deux parties doivent consentir librement et pleinement au mariage. La famille et la communauté peuvent jouer un rôle consultatif, mais le consentement des époux est essentiel.
+                            Objectifs du mariage : L'islam encourage le mariage comme un moyen de vivre une vie vertueuse, de se soutenir mutuellement et de fonder une famille. Le mariage est considéré comme une voie pour satisfaire les besoins émotionnels, physiques et spirituels des époux, tout en respectant les limites et les valeurs morales de l'islam.
+                            Égalité entre les époux : L'islam souligne l'égalité fondamentale entre les époux en termes de droits et de devoirs. Bien que les rôles et les responsabilités puissent varier, le mariage est basé sur la coopération, le respect mutuel et la bienveillance. Les décisions importantes doivent être prises conjointement, et l'amour et la miséricorde doivent prévaloir dans la relation.
+                            Conditions et obligations : Le mariage en islam implique le respect de certaines conditions et obligations. Cela inclut la dot (mahr) que le mari donne à la femme en signe de sa responsabilité envers elle, la présence de témoins pour officialiser le mariage, et le respect des droits et des devoirs mutuels énoncés dans le Coran et la Sunna.
+                            Polygamie : L'islam permet à un homme d'avoir jusqu'à quatre épouses simultanément, mais avec des conditions strictes, notamment l'équité et la capacité de traiter toutes les épouses de manière juste. Cependant, la monogamie est la norme et la pratique courante dans la plupart des sociétés musulmanes.
+                            Divorce : L'islam reconnaît la possibilité du divorce lorsque les efforts de réconciliation ont échoué et que les motifs valides sont présents. Cependant, le divorce est considéré comme un dernier recours, et les procédures et les conditions sont régies par la loi islamique (charia).
+                            Il est important de noter que les pratiques et les coutumes liées au mariage peuvent varier selon les cultures et les pays musulmans, tout en respectant les principes fondamentaux de l'islam. Les musulmans sont encouragés à chercher la connaissance, la sagesse et la guidance des érudits religieux lorsqu'ils abordent les questions liées au mariage et à la vie familiale.
+                    </span>
+                    </p>
+                    <button onclick="myFunction_()" id="myBtn0" class="btn">read more</button>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>La richesse selon l'Islam</h3>
+                    <p>En islam, la richesse est considérée comme une bénédiction de Dieu<span id="dots3">...</span><span id="more3"> et il existe des principes et des enseignements qui guident les croyants dans la recherche de la richesse tout en maintenant une perspective équilibrée et éthique. Voici quelques points clés sur le secret de la richesse en islam :
+                        1. Confiance en Dieu : La première clé pour atteindre la richesse en islam est de placer sa confiance en Dieu (Tawakkul). Les croyants sont encouragés à travailler dur, à faire preuve de diligence et de persévérance dans leurs efforts, tout en comprenant que c'est Dieu qui détient le pouvoir ultime de pourvoir à leurs besoins.
+                        2. Gagner sa subsistance de manière licite : L'islam encourage les musulmans à gagner leur subsistance de manière licite (halal). Les gains illicites, tels que la fraude, l'usure (riba) ou l'exploitation des autres, sont strictement interdits. Le commerce honnête, le travail éthique et la diligence sont valorisés.
+                        3. L'aumône (Zakat) : L'aumône est un pilier de l'islam qui consiste à donner une partie de ses biens aux personnes dans le besoin. Le paiement de la Zakat est une obligation pour les musulmans qui possèdent un certain seuil de richesse, et cela aide à purifier et à multiplier les bénédictions financières.
+                        4. Gestion prudente et responsable : L'islam encourage la gestion prudente et responsable des ressources financières. Les croyants sont incités à éviter le gaspillage, à planifier leurs dépenses, à épargner pour l'avenir et à investir de manière réfléchie. L'éducation financière et l'acquisition de compétences en matière de gestion de l'argent sont encouragées.
+                        5. Recherche du savoir : L'islam encourage la recherche du savoir dans tous les domaines, y compris la recherche de compétences et de connaissances dans le domaine des affaires et des finances. Acquérir une expertise et une compréhension approfondie d'un domaine peut aider à augmenter les opportunités de succès financier.
+                        6. Gratitude et générosité : Être reconnaissant envers Dieu pour les bénédictions reçues et faire preuve de générosité envers les autres sont des valeurs essentielles en islam. La gratitude et la générosité contribuent à ouvrir les portes de la prospérité et à attirer les bénédictions divines.
+                        7. Équilibre et modération : Bien que la recherche de la richesse soit encouragée, l'islam insiste sur l'importance de maintenir un équilibre et une modération dans la quête de la richesse. L'argent ne doit pas devenir une obsession ni être au détriment des responsabilités familiales, sociales et religieuses.
+                        Il est important de noter que la richesse matérielle n'est pas le seul critère de succès dans l'islam. La richesse spirituelle, le bien-être familial et communautaire, ainsi que la recherche de l'agrément divin sont également des objectifs importants pour les croyants.
+                    </span>
+                    </p>
+                    <button onclick="myFunction3()" id="myBtn3" class="btn">read more</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Rufisque </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Arafat II </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Patte d'Oie </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Dakar </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Sénégal </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +221 77 496 29 13 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +221 78 177 36 95 </a>
+            <a href="#"> <i class="fas fa-envelope"></i>muslimuslimcopyright@gmail.com </a>
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="https://www.facebook.com/muslimuslim" class="fab fa-facebook-f"></a>
+        <a href="https://www.tiktok.com/@muslim_muslim_muslim" class="fab fa-tiktok"></a>
+        <a href="https://www.instagram.com/muslim111muslim/" class="fab fa-instagram"></a>
+        <a href="https://www.youtube.com/channel/UC71v2h_VA6ZDloWiZTC3_9A" class="fab fa-youtube"></a>
+    </div>
+
+    <div class="credit"><span>Muslim Muslim</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="image/loader-img.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction1() {
+  var dots = document.getElementById("dots1");
+  var moreText = document.getElementById("more1");
+  var btnText = document.getElementById("myBtn1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction_() {
+  var dots = document.getElementById("dots0");
+  var moreText = document.getElementById("more0");
+  var btnText = document.getElementById("myBtn0");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction3() {
+  var dots = document.getElementById("dots3");
+  var moreText = document.getElementById("more3");
+  var btnText = document.getElementById("myBtn3");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<script>
+function myFunction2() {
+  var dots2 = document.getElementById("dots2");
+  var moreText2 = document.getElementById("more2");
+  var btnText2 = document.getElementById("myBtn2");
+
+  if (dots2.style.display === "none") {
+    dots2.style.display = "inline";
+    btnText2.innerHTML = "Read more"; 
+    moreText2.style.display = "none";
+  } else {
+    dots2.style.display = "none";
+    btnText2.innerHTML = "Read less"; 
+    moreText2.style.display = "inline";
+  }
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-c0d5b0ab-bb44-443b-a0d9-e74df095cea3"></div>
+<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-51cc3727-f240-4bfe-b058-d61b8b195fc3"></div>
+</body>
+</html>
